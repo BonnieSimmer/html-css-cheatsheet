@@ -1,0 +1,101 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+body {
+    background-image: url("img/Dorm\ Room.jpg");
+    background-size: cover;
+}
+
+li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    display: inline;
+    float: right;
+}
+
+h1 {
+    display: inline;
+    color: #DAD3BE;
+    font-family:'Playwrite NG Modern';
+}
+
+caption {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #254336;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    /* font-size: 20px; */
+    margin: 0;
+}
+
+header {
+    background-color: #254336;
+    padding: 5px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 2px solid #6B8A7A;
+    /* border-collapse: collapse; */
+    text-align: justify;
+    
+}
+ table {
+    width: 65%;
+ }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: #B7B597;
+}
+
+.code {
+    font-family: monospace;
+    background-color: #DAD3BE;
+}
+
+#container {
+    background-color: white;
+    margin: 0px 15px 80px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 75px;
+}

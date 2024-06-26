@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML-CSS Cheatsheet</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Cheatsheet</h1>
+        <ul>
+            <li> <a href="#">HTML</a> </li>
+            <li> <a href="css.html">CSS</a> </li>
+            <li> <a href="aboutme.html">About Me</a> </li>
+        </ul>
+    </header>
+
+    <div id="container">
+        <h2><abbr title="HyperText Markup Language">HTML</abbr> Table Reference</h2>
+        <div id="basics">
+            <table class="center">
+                <caption><b>Basics</b></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">&lt;html&gt; ... &lt;/html&gt;</td>
+                        <td>HTML</td>
+                        <td>Declares the Web page to be written in HTML</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;head&gt; ... &lt;/head&gt;</td>
+                        <td>Head</td>
+                        <td>Delimits the page's head</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;title&gt; ... &lt;/title&gt;</td>
+                        <td>Title</td>
+                        <td>Defines the title (not displayed on the page)</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;body&gt; ... &lt;/body&gt;</td>
+                        <td>Body</td>
+                        <td>Delimits the page's body</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;h n&gt; ... &lt;/hn&gt;</td>
+                        <td>Header n</td>
+                        <td>Set ... in boldface</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;b&gt; ... &lt;/b&gt;</td>
+                        <td>Bold</td>
+                        <td>Set ... in boldface</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;i&gt; ... &lt;/i&gt;</td>
+                        <td>Italic</td>
+                        <td>Set ... in italics</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;center&gt; ... &lt;/center&gt;</td>
+                        <td>Center</td>
+                        <td>Center ... on the page horizontally</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;ul&gt; ... &lt;/ul&gt;</td>
+                        <td>Unordered List</td>
+                        <td>Brackets an unordered (bulleted) list</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;ol&gt; ... &lt;/ol&gt;</td>
+                        <td>Ordered List</td>
+                        <td>Brackets a numbered list</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;li&gt; ... &lt;/li&gt;</td>
+                        <td>List Item</td>
+                        <td>Brackets the list item</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;br&gt;</td>
+                        <td>Break</td>
+                        <td>Force a line break here</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;p&gt; ... &lt;/p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>Brackets a paragraph</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;hr&gt;</td>
+                        <td>Horizontal Rule</td>
+                        <td>Inserts a horizontal rule</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;img src="..."&gt;</td>
+                        <td>Image</td>
+                        <td>Display an image here</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;a href="..."&gt; ... &lt;/a&gt;</td>
+                        <td>Anchor</td>
+                        <td> Delines a hyperlink</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="Table" class="last">
+            <table class="center">
+                <caption><b>Table</b></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">&lt;table&gt; ... &lt;/table&gt;</td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;thead&gt; ... &lt;/thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tbody&gt; ... &lt;/tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tr&gt; ... &lt;/tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;td&gt; ... &lt;/td&gt;</td>
+                        <td>Table Data</td>
+                        <td>The data cell container</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;th&gt; ... &lt;/th&gt;</td>
+                        <td>Table Header</td>
+                        <td>the Cells defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tfoot&gt; ... &lt;/tfoot&gt;</td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                    <tr>
+                        <th scope="col">Attribute</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                    <tr>
+                        <td class="code">colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td class="code">scope</td>
+                        <td>Scope</td>
+                        <td>Defines what this header's scope is (for accessability)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Made by: Nour ElHelw &copy;Copyright 2024</p>
+    </footer>
+</body>
+
+</html>
